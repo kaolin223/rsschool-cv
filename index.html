@@ -9,9 +9,75 @@
 </head>
 <body>
   <header class="header">
-
+    <nav class="container">
+      <div class="header__inner">
+        <h1 class="header__logo">My CV</h1>
+      <ul class="nav">
+      <li><a class="nav__link" href="#">About me</a></li>
+      <li><a class="nav__link" href="#">Contacts</a></li>
+      <li><a class="nav__link" href="#">Skills</a></li>
+      <li><a class="nav__link" href="#">Code</a></li>
+      <li><a class="nav__link" href="#">Projects</a></li>
+      <li><a class="nav__link" href="#">Education</a></li>
+      </ul>
+    </div>
+    </nav>
   </header>
   <main>
-    
+    <div class="photo">
+      <img src="/image/я.png" alt="I!!!" height="500">
+    </div>
+    <div class="container">
+      <div class="about__me">
+        <h2 class="about__logo">About me</h2>
+        <p class="about__description">Mikhail Kuptsov. I'm 21. I student Hexlet College Saint-Petesburg. I'm learning programming. I study developer. Learn english and JavaScript.</p>
+      </div>
+      <div class="contacts">
+        <h2 class="contacts__logo">Contacts</h2>
+        <pre class="contacts__description">
+          <b>Discord</b>:_kaolin
+          <b>Telegram</b>:  @kaolin12345
+          <b>Email</b>: m-kuptsov@inbox.ru
+          <b>Github</b>: https://github.com/kaolin223
+        </pre>
+      </div>
+        <div class="skills">
+          <h2 class="skills__logo">Skills</h2>
+          <p class="skills__description">Little experince in JavaScript, guitar, cooking and powerlifting</p>
+        </div>
+        <div class="code">
+          <h2 class="code__logo">Code</h2>
+          <pre class="code__description">export default (coll) => {
+            const itemsCount = coll.length;
+            if (itemsCount === 0) {
+              return null;
+            }
+            let sum = 0;
+            for (const item of coll) {
+              sum += item;
+            }
+            return sum / itemsCount;
+          };</pre>
+        </div>
+        <div class="project">
+          <h2 class="project__logo">Project</h2>
+          <pre class="project__description">
+            <b>Brain-games</b> from Hexlet: https://github.com/kaolin223/frontend-project-44
+            <b>Site with utilits</b> from Hexlet: https://github.com/kaolin223/Site-with-utilits</pre>
+        </div>
+        <div class="education">
+          <h2 class="education__logo">Education</h2>
+          <p class="education__description">Secondary School, student Hexlet College 2 course, student The Rolling Scopes School</p>
+        </div>
+    </div>
+    <footer>
+      <div class="rolling__scopes">
+        <img class="rl__photo" src="/image/rs_school_js.svg" alt="my programming school" width="100" height="100">
+        <pre class="rl__link">
+          Best courses: https://rs.school/js/ 
+          My github: https://github.com/kaolin223 
+          09.07.2023</pre>
+      </div>
+    </footer>
   </main>
 </body>

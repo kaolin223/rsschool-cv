@@ -1,0 +1,23 @@
+/* header */
+
+.header {
+  color: rgb(255, 255, 0);
+}
+
+/* footer */
+
+.footer {
+  width: auto;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.content {
+  list-style-type: none;
+  height: 40px;
+  width: 40px;
+}

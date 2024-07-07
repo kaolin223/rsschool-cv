@@ -1,14 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./styles/style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>my CV</title>
 </head>
+
 <body>
-  <header></header>
-  <div></div>
-  <footer></footer>
+  <header class="header">
+    <div class="container">
+      <div class="header-inner">
+        <h1 class="header_logo">My CV</h1>
+        <nav class="menu">
+          <a class="nav_link" href="#persona">Personal Information</a>
+          <a class="nav_link" href="#hobbies">Hobbies and Interests</a>
+          <a class="nav_link" href="#skills">Skills</a>
+          <a class="nav_link" href="#code">Code example</a>
+          <a class="nav_link" href="#education">Education</a>
+          <a class="nav_link" href="#language">Language</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <div class="avatar">
+    <img src="./images/photo_5375284586537409031_y.jpg" alt="rabbit" height="500">
+  </div>
+
+  <main>
+    <div class="container">
+      <div class="main-inner">
+    <section class="personalInformation">
+      <h2><a id="persona"></a>Personal Information</h2>
+      <ul>
+        <li>Name: <b>Mikhail Kuptsov</b></li>
+        <li>Contacts:
+          <ul>
+            <li>Phone: +79014493739</li>
+            <li>Email: m-kuptsov@inbox.ru</li>
+            <li>Telegram: @kaolin12345</li>
+            <li>Discord: Mikhail Kuptsov (@kaolin223)</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section class="hobbiesInterests">
+      <h2><a id="hobbies"></a>Hobbies and Interests</h2>
+      <p>Personal characteristics: patient, friendly, polite, work well in a team.</p>
+      <p>Hobbies: bodybuilding, traveling, coding.</p>
+    </section>
+
+    <section class="skills">
+      <h2><a id="skills"></a>Skills</h2>
+      <ul>
+        <li>native JavaScript</li>
+        <li>PhaserJs</li>
+        <li>nodeJS</li>
+        <li>English Language A2</li>
+      </ul>
+    </section>
+
+    <section class="codeExample">
+      <h2><a id="code"></a>Code example</h2>
+      <ul>
+        <li><a class="nav_link1" href="https://github.com/kaolin223/frontend-project-44">Brain Game by Hexlet</a></li>
+        <li><a class="nav_link1" href="https://github.com/kaolin223/frontend-project-46">Difference Calculator by Hexlet</a></li>
+      </ul>
+    </section>
+
+    <section class="education">
+      <h2><a id="education"></a>Education</h2>
+      <p>I'm just a student</p>
+    </section>
+
+    <section class="language">
+      <h2><a id="language"></a>Language</h2>
+      <ul>
+        <li>English A2</li>
+        <li>Russian C2</li>
+      </ul>
+    </section>
+    </div>
+  </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <a class="nav_link2" href="https://rs.school/courses/javascript-ru"><img class="rollingScopes" src="./images/rs-school-logo.svg" alt="RS"></a>
+        <p>07.07.2024</p>
+        <a class="nav_link2" href="https://github.com/kaolin223"><img class="gitHub" src="./images/GitHub-Mark-ea2971cee799.svg" alt="github"></a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

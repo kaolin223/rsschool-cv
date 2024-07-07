@@ -1,0 +1,138 @@
+body {
+  background-color: rgb(235, 239, 241);
+  align-content: center;
+  margin: auto;
+}
+
+/* Container */
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto
+}
+
+/* Header */
+
+
+.header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.header__logo {
+  font-size: 30px;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.nav_link {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 10px;
+}
+
+/* main */
+
+main {
+  margin: auto;
+}
+
+.main-inner {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.avatar {
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 81px;
+}
+
+.personalInformation {
+  width: 1000px;
+  margin: 100px 0 0 110px;
+  background-color: chocolate;
+}
+
+.hobbiesInterests {
+  width: 1000px;
+  margin: 50px 0 0 110px;
+  background-color: chocolate;
+  padding: 1px;
+}
+
+.skills {
+  width: 1000px;
+  margin: 50px 0 0 110px;
+  background-color: chocolate;
+  padding: 1px;
+}
+
+.codeExample {
+  width: 1000px;
+  margin: 50px 0 0 110px;
+  background-color: chocolate;
+  padding: 1px;
+}
+
+.nav_link1 {
+  color: black;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 10px;
+}
+
+.education {
+  width: 1000px;
+  margin: 50px 0 0 110px;
+  background-color: chocolate;
+  padding: 1px;
+}
+
+.language {
+  width: 1000px;
+  margin: 50px 0 0 110px;
+  background-color: chocolate;
+  padding: 1px;
+}
+
+/* footer */
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rollingScopes {
+  height: 70px;
+  width: 70px;
+}
+
+.gitHub {
+  height: 70px;
+  width: 70px;
+}
+
+.nav_link2 {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 10px;
+}

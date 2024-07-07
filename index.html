@@ -6,87 +6,88 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>my CV</title>
 </head>
+
 <body>
   <header class="header">
-    <h1>My CV</h1>
     <div class="container">
-      <nav class="menu">
-        <ul>
-          <li class="nav"><a href="#persona">Personal Information</a></li>
-          <li class="nav"><a href="#hobbies">Hobbies and Interests</a></li>
-          <li class="nav"><a href="#skills">Skills</a></li>
-          <li class="nav"><a href="#code">Code example</a></li>
-          <li class="nav"><a href="#job">Job Objective</a></li>
-          <li class="nav"><a href="#education">Education</a></li>
-          <li class="nav"><a href="#language">Language</a></li>
-          <img src="./images/e8c85370c238697789f144fef57b0e5c.jpg" alt="monteCristo">
-        </ul>
-      </nav>
+      <div class="header-inner">
+        <h1 class="header_logo">My CV</h1>
+        <nav class="menu">
+          <a class="nav_link" href="#persona">Personal Information</a>
+          <a class="nav_link" href="#hobbies">Hobbies and Interests</a>
+          <a class="nav_link" href="#skills">Skills</a>
+          <a class="nav_link" href="#code">Code example</a>
+          <a class="nav_link" href="#education">Education</a>
+          <a class="nav_link" href="#language">Language</a>
+        </nav>
+      </div>
     </div>
   </header>
-  <main class="main">
-    <div class="container">
-      <section class="personalInformation">
-        <h2><a id="persona"></a>Personal Information</h2>
-        <ul>
-          <li>Name: <b>Mikhail Kuptsov</b></li>
-          <li>Contacts:
-            <ul>
-              <li>Phone: +79014493739</li>
-              <li>Email: m-kuptsov@inbox.ru</li>
-              <li>Telegram: @kaolin12345</li>
-              <li>Discord: Mikhail Kuptsov (@kaolin223)</li>
-            </ul>
-          </li>
-        </ul>
-      </section>
-      <section class="hobbiesInterests">
-        <h2><a id="hobbies"></a>Hobbies and Interests</h2>
-        <p>Personal characteristics: patient, friendly, polite, work well in a team.</p>
-        <p>Hobbies: bodybuilding, traveling, coding.</p>
-      </section>
-      <section class="skills">
-        <h2><a id="skills"></a>Skills</h2>
-        <ul>
-          <li>native JavaScript</li>
-          <li>PhaserJs</li>
-          <li>nodeJS</li>
-          <li>English Language A2</li>
-        </ul>
-      </section>
-      <section class="codeExample">
-        <h2><a id="code"></a>Code example</h2>
-        <ul>
-          <li><a href="https://github.com/kaolin223/frontend-project-44"></a>Brain Game by Hexlet</li>
-          <li><a href="https://github.com/kaolin223/frontend-project-46"></a>Difference Calculator by Hexlet</li>
-        </ul>
-      </section>
-      <section class="jobObjective">
-        <h2><a id="job"></a>Job Objective</h2>
-        <p>I'm a student on Hexlet college</p>
-      </section>
-      <section class="education">
-        <h2><a id="education"></a>Education</h2>
-        <p>I'm just a student</p>
-      </section>
-      <section class="language">
-        <h2><a id="language"></a>Language</h2>
-        <ul>
-          <li>English A2</li>
-          <li>Russian C2</li>
-        </ul>
-      </section>
-    </div>
-  </main>
-  <footer class="footer">
-    <div class="container">
-    <nav class="navigation">
-      <ul>
-        <li class="content"><a href="https://github.com/kaolin223"><img src="./images/GitHub-Mark-ea2971cee799.png" alt="autorGithub"></a></li>
-        <li class="content"><a href="https://rs.school/courses/javascript-ru"><img src="./images/rs-school-logo.svg" alt="logoRSS"></a></li>
-      </ul>
-    </nav>
+
+  <div class="avatar">
+    <img src="./images/photo_5375284586537409031_y.jpg" alt="rabbit" height="500">
   </div>
+
+  <main>
+    <div class="container">
+      <div class="main-inner">
+    <section class="personalInformation">
+      <h2><a id="persona"></a>Personal Information</h2>
+      <ul>
+        <li>Name: <b>Mikhail Kuptsov</b></li>
+        <li>Contacts:
+          <ul>
+            <li>Phone: +79014493739</li>
+            <li>Email: m-kuptsov@inbox.ru</li>
+            <li>Telegram: @kaolin12345</li>
+            <li>Discord: Mikhail Kuptsov (@kaolin223)</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section class="hobbiesInterests">
+      <h2><a id="hobbies"></a>Hobbies and Interests</h2>
+      <p>Personal characteristics: patient, friendly, polite, work well in a team.</p>
+      <p>Hobbies: bodybuilding, traveling, coding.</p>
+    </section>
+
+    <section class="skills">
+      <h2><a id="skills"></a>Skills</h2>
+      <ul>
+        <li>native JavaScript</li>
+        <li>PhaserJs</li>
+        <li>nodeJS</li>
+        <li>English Language A2</li>
+      </ul>
+    </section>
+
+    <section class="codeExample">
+      <h2><a id="code"></a>Code example</h2>
+      <ul>
+        <li><a class="nav_link1" href="https://github.com/kaolin223/frontend-project-44">Brain Game by Hexlet</a></li>
+        <li><a class="nav_link1" href="https://github.com/kaolin223/frontend-project-46">Difference Calculator by Hexlet</a></li>
+      </ul>
+    </section>
+
+    <section class="education">
+      <h2><a id="education"></a>Education</h2>
+      <p>I'm just a student</p>
+    </section>
+
+    <section class="language">
+      <h2><a id="language"></a>Language</h2>
+      <ul>
+        <li>English A2</li>
+        <li>Russian C2</li>
+      </ul>
+    </section>
+    </div>
+  </div>
+  </main>
+
+  <footer>
+    
   </footer>
 </body>
 </html>
